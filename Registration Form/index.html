@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="container">
+        <header><H1>Registration Form</H1></header>
+
+        <!-- Registration form -->
+        <form action="#" class="form">
+
+            <!-- Full Name input -->
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter Full Name" required />
+            </div>
+
+            <!-- Email Address input -->
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="text" placeholder="Enter Email Address (@gmail.com)" required />
+            </div>
+
+            <!-- Phone Number and Birth Date inputs -->
+            <div class="column">
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="number" placeholder="Enter Phone Number" required />
+                </div>
+                <div class="input-box">
+                    <label>Birth Date</label>
+                    <input type="date" placeholder="Enter Birth Date" required />
+                </div>
+            </div>
+
+            <!-- Gender selection -->
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked />
+                        <label for="check-male">Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender" />
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender" />
+                        <label for="check-other">Prefer Not to Say</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Address input -->
+            <div class="input-box address">
+                <label>Address</label>
+                <input type="text" placeholder="Enter Address" required />
+                <input type="text" placeholder="Enter Area Address" required />
+
+                <div class="column">
+                    <!-- Country selection -->
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Country</option>
+                            <option>America</option>
+                            <option>Japan</option>
+                            <option>India</option>
+                            <option>Nepal</option>
+                        </select>
+                    </div>
+
+                    <!-- City input -->
+                    <input type="text" placeholder="Enter your city" required />
+                </div>
+
+                <div class="column">
+                    <!-- Region input -->
+                    <input type="text" placeholder="Enter your region" required />
+                    <!-- Postal code input -->
+                    <input type="number" placeholder="Enter postal code" required />
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <button>Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
