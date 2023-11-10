@@ -1,5 +1,5 @@
 /* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #E3F2FD;
+  background: #e3f2fd;
 }
 
 .chatbot-toggler {
@@ -192,7 +192,7 @@ header h2 {
   font-size: 1.35rem;
 }
 
-.chat-input textarea:valid~span {
+.chat-input textarea:valid ~ span {
   visibility: visible;
 }
 

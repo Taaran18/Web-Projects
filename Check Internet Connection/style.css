@@ -1,5 +1,5 @@
 /* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #E3F2FD;
+  background: #e3f2fd;
 }
 
 .popup {
@@ -22,7 +22,7 @@ body {
   padding: 13px 17px 20px;
   background: #fff;
   display: flex;
-  border-top: 3px solid #EA4D67;
+  border-top: 3px solid #ea4d67;
   transform: translateX(-50%);
   box-shadow: 0 10px 25px rgba(52, 87, 220, 0.1);
   transition: all 0.25s ease;
@@ -34,7 +34,7 @@ body {
 }
 
 .popup.online {
-  border-color: #2ECC71;
+  border-color: #2ecc71;
 }
 
 .popup .icon i {
@@ -47,11 +47,11 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #EA4D67;
+  background: #ea4d67;
 }
 
 .popup.online .icon i {
-  background: #2ECC71;
+  background: #2ecc71;
 }
 
 .popup .title {
@@ -73,7 +73,7 @@ body {
   font-size: 0.95rem;
   padding: 8px 13px;
   border-radius: 4px;
-  background: #5372F0;
+  background: #5372f0;
 }
 
 .popup.online .reconnect {
